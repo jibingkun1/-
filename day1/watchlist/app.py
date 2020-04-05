@@ -93,3 +93,5 @@ def page_not_found(e):
 def common_user():
     user = User.query.first()
     return dict(user=user)
+
+#周六日
