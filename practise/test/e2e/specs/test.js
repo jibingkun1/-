@@ -4,7 +4,7 @@
 module.exports = {
   'default e2e tests': function (browser) {
     browser
-      .url(devServer)
+      .url('http://localhost:8080')
       .waitForElementVisible('#app', 5000)
       .end()
   }
